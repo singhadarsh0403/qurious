@@ -1,0 +1,127 @@
+ body{
+    /*text-align: center;*/
+}
+
+.heading{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: white;
+    
+}
+.head .icon .heading i{
+    font-size: 50px;
+    color: white;
+    z-index: 100;
+    align-items: left;
+    align-self: left;
+    position:absolute;
+   /*// margin-top: 0;*/
+   
+    left: 80%;
+    right: 20%;
+    margin-top: 50px;
+
+}
+
+#button{
+    left:90%;
+}
+
+.menu{
+    align-content: right;
+    background-color: #52658F;
+    position:absolute;
+    left: 80%;
+    right: 0%;
+   padding: 0 0 0 0 ;
+    margin: 0 0 0 0;
+    height:1500px;
+    z-index: 90;
+}
+.option{
+    font-size: 50px;
+    color: white;
+    z-index: 100;
+    align-items: left;
+    align-self: left;
+    position:absolute;
+    left: 90%;
+    right: 10%;
+    margin-top: 50px;
+}
+p{
+    font-family: 'La Belle Aurore', cursive;
+      color: white;
+    position: relative;
+    z-index: 1;
+}
+.head{
+    height: 150px;
+    width: auto;
+    background-color: #333A56;
+}
+.content{
+    /*text-align: center;*/
+    /*font-size: 100px;*/
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    z-index: 1;
+}
+ul{
+    font-family: 'K2D', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+}
+
+.ques{
+    background-color: #e8e8e8;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Lora', serif;
+    border-radius: 8px;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius: 0;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.answer{
+    position: relative;
+    font-size: 15px;
+    margin-left: 60px;
+    background-color: #f7f5e6;
+    font-family: 'Source Serif Pro', serif;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    top: 0%;
+}
+
+.content a{
+    font-size: 16px;
+    font-family: 'Signika', sans-serif;
+}
+
+.row{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+

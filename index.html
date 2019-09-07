@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore|Pattaya" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=K2D:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="./js/index.js">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<title>KIET</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+    $("#button").click(function(){
+        $(".menu").toggle();
+            });
+        });
+
+        $(document).ready(function(){
+            $(".catagory").click(function(){
+                $(".list").toggle();
+            });
+        });
+
+        $(document).ready(function(){
+            $(".ask").click(function(){
+                $(".row").toggle();
+            });
+        });
+
+
+    </script>
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+    <!--header part-->
+	<div class="head">
+        <div class="icon">
+            <div class="heading"  style="text-align: left;">
+            Querious
+            <a href="login.html"><i class="fas fa-user-circle"></i></a>
+            <a href="#"><i class="fas fa-align-justify option" id="button"></i></a>
+
+            </div>
+        </div>
+        <p style="text-align: left;">A solution to all your questions.</p>
+
+    </div>
+
+    <!--side navbar-->
+    <div class="menu col-md-2" id="list">
+	       <ul>
+	           <li class="catagory" style="cursor: pointer;"> Topics
+	           <!--<a href="#" class="catagory" style="text-decoration: none;"> Topics</a>-->
+	               <ul class="list">
+	                   <li>CS</li>
+	                   <li>IT</li>
+	                   <li>ECE</li>
+	                   <li>EN</li>
+	                   <li>EI</li>
+	                   <li>CIVIL</li>
+	                   <li>MECH</li>
+	                   <li>MBA</li>
+	                   <li>PHARMACY</li>
+	                   <li>A.S.</li>
+	                   <li>Others</li>
+	               </ul>
+	           </li>
+	           <li class="ask" style="cursor: pointer">Ask</li>
+	           <li onclick="location.href='./effect.html'" style="cursor: pointer;">USE</li>
+	           <li onclick="location.href='http://www.compileonline.com/'" style="cursor: pointer">CODE</li>
+	           <li  onclick="location.href='./about/index.html'" style="cursor: pointer">ABOUT</li>
+	           <a href="mailto:singhadarsh0403@gmail.com"><li>CONTACT</li></a>
+
+
+	       </ul>
+	    </div>
+
+    <!--content-->
+     <div class="active col-md-12">
+
+        <div class="content">
+
+        <div class="ques">
+          Q.) What should every software engineer know about data structures and algorithms?
+        </div>
+
+	     <div class="answer">
+	       A.) As a Computer Science graduate and have a couple of years of hands on experience, specifically on core level of Computer Science, I can say you that Data Structures and Algorithms are nuts & bolts of software.
+            <br>
+            Before going to what, let me explain why you should know.
+            <br>
+            First have a look at definition from Bible of Algorithm[1],
+            <br>
+            A data structure is a way to store and organize data in order to facilitate access and modifications. No single data structure works well for all purposes, and so it is important to know the strengths and limitations of several of them
+            <br>
+            And
+            <br>
+            Informally, an algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values, as output. An algorithm is thus a sequence of computational steps that transform the input into the output.
+            <br>
+            Now after reading the definition 2–3 times, you got a brief idea about data structures and algorithms.
+            <br>
+            Now, for question why, For any given computational problem(Problem which is solved by computer using resources like RAM, CPU, etc.,),
+            <br>
+            How data get stored, retrieved, manipulated, etc., is termed as Data Structures. Data may be anything like taking input from user or through files.
+            Algorithm, the method which you apply to solve problem efficiently. Let’s us consider an example to find the sum of n sequence numbers.
+            Method 1:
+            <br>
+         int sum = 0; <br>
+        for(inti=FirstNumber;i < LastNumber;i++){ <br>
+          sum = sum + i; <br>
+        } <br>
+        Method 2:  <br>
+
+        Simply apply the formula : <br>
+
+        sum = n (n+1)/2;  <br>
+        Second method is more efficient than first one. So, chose the efficeint method to solve any given computational problem.
+        <br>
+        Now, for what are the Data Structures,
+        <br>
+        Have a look at the below image, <br>
+        <img src="https://qph.fs.quoracdn.net/main-qimg-985e293a612aba3ea3baf4754e02b835" alt="">
+
+        <br>
+        Usage of Data Structures depends of the type of problem you are solving,
+        <br>
+        There are lot of algorithms to solve problems,
+        <br>
+        Sorting <br>
+        Searching <br>
+        Divide and Conquer <br>
+        Backtracking <br>
+        Dynamic Programming. etc., <br>
+
+
+	    </div>
+
+	    <a href="#">bookmark. <i class="fas fa-thumbtack"></i></a>
+	    <a href="#">upvote<i class="fas fa-thumbs-up"></i></a>
+	    <a href="#">answer<i class="fab fa-asymmetrik"></i></a>
+
+
+	    </div>
+
+	     <div class="content">
+
+        <div class="ques">
+         Q.)  Help with the calculation (and usefulness) of password entropy
+    This is a two part question: <br> <br>
+
+    Part 1 <br>
+
+    First, dealing with calculating the entropy of a password in PHP. I have been unable to find any code examples that are empirically sound and would really like some help in finding the 'right' way to calculate a final number. A lot of folks on the net have their own home-baked weighting algorithm, but I am really looking for the scientific answer to the equation. <br>
+
+    I will be using the password entropy as just one part of a larger security system and as a way to analyze our overall data security based on information accessible if a user's password is compromised and how easily a password may be broken by brute force. <br> <br>
+
+    Part 2 <br>
+
+    The second part of this question is: how useful will this number really be? My end goal is to generate a 'score' for each password in the system that we can use to monitor our overall system security as a dynamic entity. I will probably have to work in another algorithm or two for dictionary attacks, l33t replacement passwords, etc--but I do feel that entropy will play an important role in such an 'overall' system rating. I do welcome suggestions for other approaches though. <br> <br>
+
+    What I Know <br>
+
+    I have seen some mention of logarithmic equations to calculate said entropy, but I have yet to see a good example that isn't actually written as a mathematical equation. I could really use a code example (even if not strictly in PHP) to get me going. <br> <br>
+
+    Extension <br>
+
+
+    In making a comment I realized that I can better explain the usefulness of this calculation. When I am working on legacy systems where users have extremely weak passwords I have to have some concrete evidence of that weakness before I can make a case for forcing all users to change their passwords to a new (enforced) strong password. By storing a password strength score for each user account in the system I can build several different metrics to show overall system weakness and make a case for stronger passwords.
+        </div>
+	     <div class="answer">
+	       A.)  Entropy of a string has a formal definition specified here:   <a href="http://en.wikipedia.org/wiki/Entropy">http://en.wikipedia.org/wiki/Entropy_(information_theory) </a>  <br>
+
+How useful that value is going to be? It depends. Here's a method (in Java) to calculate entropy I made for an assignment: <br>
+
+public static double entropy() { <br>
+   double h = 0, p; <br>
+   for (int i = 0; i < count.size(); i++){ <br>
+      p = count.get(i)/(totalChars*1.0); <br>
+      h -= p*Math.log(p)/Math.log(2); <br>
+   } <br>
+   return h; <br>
+} <br>
+count is a Map where (key, value) corresponds to (char, countForChar). This obviously means you have to process the string before you call this method. <br> <br>
+
+EDIT 2: Here's the same method, rewritten in PHP <br> <br>
+
+function entropy($string) { <br>
+   $h=0; <br>
+   $size = strlen($string); <br>
+   foreach (count_chars($string, 1) as $v) { <br>
+      $p = $v/$size; <br>
+      $h -= $p*log($p)/log(2); <br>
+   } <br>
+   return $h; <br>
+} <br>
+	    </div>
+
+	    <a href="#">bookmark. <i class="fas fa-thumbtack"></i></a>
+	    <a href="#">upvote<i class="fas fa-thumbs-up"></i></a>
+	    <a href="#">answer<i class="fab fa-asymmetrik"></i></a>
+
+
+	    </div>
+
+	     <div class="content">
+
+        <div class="ques">
+          Q.) What tech talks should every software engineer watch?
+        </div>
+
+	     <div class="answer">
+	        A.) Here we go:
+<a href="http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world?language=en">
+How algorithms shape our world by Kevin Slavin </a> <br>
+(Some ,(most), software engineers forget how important Algorithms are) .
+<a href="https://www.youtube.com/watch?v=cidchWg74Y4">
+Simplicity Ain't Easy - by Stuart Halloway </a> <br>
+<a href="https://www.youtube.com/watch?v=0SARbwvhupQ"> The Myth of the Genius Programmer by Brian Fitzpatrick, Ben Collins-Sussman </a> <br>
+<a href="https://www.youtube.com/watch?v=9LfmrkyP81M"> Keynote: Writing Software by David Heinemeier Hansson</a> <br>
+<a href="https://www.youtube.com/watch?v=86xWVb4XIyE"> The Essence of C++ by the one and only Bjarne Stroustrup </a> <br>
+<a href="https://www.youtube.com/watch?v=9ei-rbULWoA"> Apple, Apache, Google, Oracle and the Future of Java by James Gosling</a> <br>
+<a href="https://www.youtube.com/watch?v=UH7wkvcf0ys"> Facebook and memcached - Tech Talk by Mark Zuckerberg </a><br>
+<a href="https://www.youtube.com/watch?v=PE4gwstWhmc"> How We've Scaled Dropbox by Kevin Modzelewski </a> <br>
+<a href="https://www.youtube.com/watch?v=z8LU0Cj6BOU"> Twitter: Scaling Beyond 100 Million Users by John Adams </a><br>
+<a href="https://www.youtube.com/watch?v=QCHiNEw73AU"> Lessons of Scale at Facebook <br>
+Dynamic Languages Wizards Series </a>
+(Freaking AWESOME panel: Paul Graham , John Maeda, Jonathan Rees, Guy Steele) <br>
+<a href="https://www.youtube.com/watch?v=eNliOm9NtCM"> NYC Tech Talk Series: How Google Backs Up the Internet . (meh) </a> <br><br>
+Longer version of the above two talks can be found below here: <br>
+
+<a href="https://www.youtube.com/watch?index=5&v=JBjjnqG0BP8"> Bjarne Stroustrup: Why I Created C++ </a> <br>
+
+
+
+<a href="https://www.youtube.com/watch?v=SKqBmAHwSkg"> Larry Wall: How to Code Like Larry Wall</a> <br>
+
+	    </div>
+
+	    <a href="#">bookmark. <i class="fas fa-thumbtack"></i></a>
+	    <a href="#">upvote<i class="fas fa-thumbs-up"></i></a>
+	    <a href="#">answer<i class="fab fa-asymmetrik"></i></a>
+
+
+	    </div>
+
+          <div class="content">
+
+        <div class="ques">
+          Q.) How do CSE freshers get 20+ LPA packages?
+        </div>
+
+	     <div class="answer">
+	        A.) Let me give an answer which might contradict from many other answers you read here and be specific to what you are looking for. <br>
+
+            If your branch is CSE there is no doubt you have a sea of opportunities ahead. With that said I will answer this question prioritising it: <br>
+
+            Negotiation and Communication skills: It matters the most even more than your technical knowledge what matters is your ability to negotiate and communicate while you are on call with someone, approaching a client or a company, looking for a job or something. <br>
+
+            If you have this ability and along with it the ability to search and identify the right opportunities then you can hit the hammer with less technical specifications as well and that’s a true thing. <br>
+            Uniqueness: Freshers who land up to packages higher than 20 LPA have something Unique with their work, research and the projects they do, it clearly reflects in them and differentiates them from the heard; I am mostly saying this about the students from average universities as ones from IIT, NIT etc have done nothing special if they are getting a package close to 20 LPA only after getting their fancy title. <br>
+            Average technical stuff and awareness: Yes, its average no one is going to ask you to launch an asteroid buster missile on your first day, no one expects you to create a new Google in your first year. You should have clear concepts on whatever work you have done in your college life and able to explain what you did that’s it. <br>
+
+            Awareness about the right opportunity is one of the necessities which they have to land a higher package. <br>
+            Buring desire and never settle for less attitude: They have this that what makes them different. They don’t believe in luck they make it for themselves. <br>
+	    </div>
+
+	    <a href="#">bookmark. <i class="fas fa-thumbtack"></i></a>
+	    <a href="#">upvote<i class="fas fa-thumbs-up"></i></a>
+	    <a href="#">answer<i class="fab fa-asymmetrik"></i></a>
+
+
+	    </div>
+
+    </div>
+
+
+	  <!--submittion-->
+    <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a Answer/Question."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	   <script type="text/javascript" src="particles.js"></script>
+   <script type="text/javascript" src="app.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
